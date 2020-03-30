@@ -1,0 +1,19 @@
+[1] HOW TO COMPILE
+
+This program is written in C++. Please compile in the following way.
+
+> g++ calc-muflux-tang.cpp -o calc-muflux-tang
+
+[2] HOW TO EXECUTE
+
+This program reads a table of muons' range in standard rock (standardrock.txt).
+Please move the execuable in the same directory with standardrock.txt.
+
+> ./calc-muflux-tang 100 0.1
+0.000271954
+
+The first argument is the thickness of overburden in the unit of meter w.e.
+The second argument is the zenith angle in the unit of radian.
+The output of the program is the muon flux after passing through the material 
+with a given thickness (standard rock) in the unit of cm^{-2} sec^{-1} steradian^{-1}.
+ 
