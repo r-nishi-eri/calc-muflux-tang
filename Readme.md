@@ -12,7 +12,7 @@ This program reads a table of muons' range in standard rock (standardrock.txt).
 Please move the execuable in the same directory with standardrock.txt.
 
 > ./calc-muflux-tang 100 0.1
-0.000271954
+> 0.000271954
 
 The first argument is the amount of material traversed by muons (unit: meter water equivalent).
 The second argument is the zenith angle in the unit of radian.
